@@ -75,6 +75,7 @@ class AIProvider(str, Enum):
     DOUBAO = "doubao"
     MINIMAX = "minimax"
     DEEPSEEK = "deepseek"
+    GLM = "glm"
     OLLAMA = "ollama"
 
 
@@ -121,6 +122,11 @@ AI_PROVIDER_DEFAULTS = {
         "model": "deepseek-chat",
         "api_key_env": "DEEPSEEK_API_KEY",
         "base_url": "https://api.deepseek.com",
+    },
+    AIProvider.GLM: {
+        "model": "glm-4-plus",
+        "api_key_env": "GLM_API_KEY",
+        "base_url": "https://open.bigmodel.cn/api/paas/v4",
     },
     AIProvider.OLLAMA: {
         "model": "llama3.1",
