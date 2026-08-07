@@ -36,6 +36,19 @@ Common API key variable names:
 | Aliyun DashScope | `DASHSCOPE_API_KEY` |
 | Doubao | `DOUBAO_API_KEY` |
 | DeepSeek | `DEEPSEEK_API_KEY` |
+| GLM (Zhipu AI) | `GLM_API_KEY` |
+
+**GLM (Zhipu AI)**:
+```json
+{
+  "ai": {
+    "provider": "glm",
+    "model": "glm-4.7-flash",
+    "api_key_env": "GLM_API_KEY",
+    "throttle_sec": 0
+  }
+}
+```
 
 **Anthropic Claude**:
 

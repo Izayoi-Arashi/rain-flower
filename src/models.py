@@ -124,7 +124,7 @@ AI_PROVIDER_DEFAULTS = {
         "base_url": "https://api.deepseek.com",
     },
     AIProvider.GLM: {
-        "model": "glm-4-plus",
+        "model": "glm-4.7-flash",
         "api_key_env": "GLM_API_KEY",
         "base_url": "https://open.bigmodel.cn/api/paas/v4",
     },
